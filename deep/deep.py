@@ -1,6 +1,7 @@
 def main():
     user_input=input("what is the answer of the great question of life , the universe,and Everything?")
-    if user_input.lower()=="42" or user_input.lower().strip().replace(" " or "-","")=="fortytwo":
+    new_input=user_input.lower().strip().replace(" ","").replace("-","")
+    if new_input == "42" or new_input=="fortytwo":
          print("YES")
     else:
         print( "no")

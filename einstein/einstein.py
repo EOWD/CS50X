@@ -1,14 +1,8 @@
 def main():
     M = input("M: ")
-    if M:
-        outPut= findE(int(M))
-        print(f"E: {outPut}")
-        return
-    else:
-        return "none"
+    outPut= findE(int(M))
 
-
-
+    print(f"E: {outPut}")
 
 def findE(input):
     if input:

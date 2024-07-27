@@ -7,7 +7,7 @@ def main():
         print ("$20")
 
     else:
-        print("$0")
+        print("$100")
 
 main()
 

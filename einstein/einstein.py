@@ -6,9 +6,9 @@ def main():
 
 def convert(input):
     if input:
-        c =300000000
-        outPut= input*c
-        return
+        c =300_000_000
+        outPut= input * c ** 2
+        return outPut
 
 
 

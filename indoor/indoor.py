@@ -1,2 +1,8 @@
-x=input()
-print(x.strip().lower())
+
+def main():
+    x=input()
+    print(x.strip().lower())
+
+main()
+
+

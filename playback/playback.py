@@ -1,9 +1,13 @@
 def main():
-    playback()
+   outPut= playback()
+   print(outPut)
 
 
 
 def playback():
     x=input()
     if input != "":
-        print(x.split())
+       y= x.replace(" ","...")
+       return y
+
+main()

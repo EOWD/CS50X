@@ -1,12 +1,12 @@
 def main():
-    userInput= input("lets converts your smiles")
+    userInput= input("lets converts your smiles: ")
     outPut= convert(userInput.strip())
-    print(outPut)
+    print(f"converted out put: {outPut}")
 
 def convert(input):
     if input != "":
-        outPut=input.replace(":)","🙂")
-        outPut=outPut.replace(":(","🙁")
-        return outPut
+        return input.replace(":)", "🙂").replace(":(", "🙁")
+    else:
+        main()
 
 main()

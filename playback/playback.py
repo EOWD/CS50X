@@ -7,7 +7,7 @@ def main():
 def playback():
     x=input()
     if input != "":
-       y= x.replace(" ","...")
+       y= x.strip().replace(" ","...")
        return y
 
 main()

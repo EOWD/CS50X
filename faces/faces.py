@@ -6,7 +6,7 @@ def main():
 def convert(input):
     if input != "":
         outPut=input.replace(":)","🙂")
-        outPut=input.replace(":(","🙁")
+        outPut=outPut.replace(":(","🙁")
         return outPut
 
 main()

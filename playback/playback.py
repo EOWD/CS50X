@@ -9,5 +9,7 @@ def playback():
     if input != "":
        y= x.strip().replace(" ","...")
        return y
+    else:
+       return "Enter Input"
 
 main()

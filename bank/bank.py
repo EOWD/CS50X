@@ -1,12 +1,12 @@
 def main():
     greeting=input("Greeting:")
     lowerCase=greeting.lower().strip()
-    if not ("h" in lowerCase):
-        print ("$100")
-    elif ("hello" in lowerCase):
+    if  (lowerCase.startswith("h")):
+        print ("$20")
+    elif (lowerCase.startswith("hello")):
         print("$0")
     else:
-        print("$20")
+        print("$0")
 
 main()
 

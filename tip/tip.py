@@ -6,7 +6,8 @@ def main():
 
 
 def dollars_to_float(d):
-    return float(d)
+    
+    return float(d).replace()
     # TODO
 
 

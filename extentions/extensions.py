@@ -1,7 +1,7 @@
 def main():
     fileName=input('Give filename: ')
     fileExtention= checkFileExtention(fileName)
-    print(f"file type: {fileExtention}")
+    print(f"{fileExtention}")
 
 def checkFileExtention(fileName):
 

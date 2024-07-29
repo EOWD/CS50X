@@ -8,9 +8,7 @@ def interpreter(user_input):
     x=int(x)
     z=int(z)
 
-    if not (y == "+","-","/","*" ):
-        return "please give a valid expression "
-
+  
     match y:
         case "+":
             return x+z

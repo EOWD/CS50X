@@ -5,8 +5,8 @@ def main():
 
 def interpreter(user_input):
     x,y,z=user_input.spilt()
-    int(x)
-    int(z)
+    x=int(x)
+    z=int(z)
 
     if not (y == "+","-","/","*" ):
         return "please give a valid expression "

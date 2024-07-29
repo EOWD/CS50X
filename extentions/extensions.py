@@ -14,7 +14,8 @@ def checkFileExtention(fileName):
         '.txt': 'text/plain',
         '.zip': 'application/zip'
     }
-    
+    x,y,z="1 + 1"
+    print (y)
     name = fileName.lower().strip()
     for key in types:
         if key in name:

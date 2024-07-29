@@ -6,6 +6,19 @@ def main():
 def interpreter(user_input):
     x,y,z=user_input.spilt()
     int(x)
-    int(y)
-    
+    int(z)
+
+    match y:
+        case "+":
+            return x+z
+        case "-":
+            return x-z
+        case "/":
+            return x/z
+        case "*":
+            return x*z
+        
+
+
+
 

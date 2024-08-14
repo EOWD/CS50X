@@ -46,10 +46,11 @@ void validate(long n)
     }
     printf("%li/n",ma);
     printf("%li/n",everySec);
+    int result=0
 
     while(everySec>0)
     {
-        x=
+        currentNum = everySec % 10;
     }
 
 

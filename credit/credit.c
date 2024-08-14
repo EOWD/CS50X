@@ -20,7 +20,7 @@ void validate(long n)
 
         num = num / 100;
     }
-    printf("%li", newLong);
+    printf("%li \n", newLong);
 
     long ma = 0;
     while(newLong>0)

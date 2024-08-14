@@ -76,6 +76,12 @@ bool validate(long n)
 //51, 52, 53, 54, or 55
 string card(long n)
 {
+    countN=n
+    int count=0
+    while(countN>0){
+        count/=10
+        count++
+    }
     long cardNum=n;
     while(cardNum>=100)
     {
@@ -86,11 +92,11 @@ string card(long n)
         return "AMEX\n";
 
     }
-    else if (cardNum==51||cardNum==52||cardNum==53||cardNum==54||cardNum==55)
+    else if (cardNum>)
     {
         return "MASTERCARD\n";
     }
-    else
+    else if((cardNum / 10 == 4) && (count==16||count==13))
     {
        return "VISA\n";
     }

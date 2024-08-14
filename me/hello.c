@@ -9,7 +9,7 @@ int main(void)
 }
 
 
-string sayHello(string input)
+string sayHello(string i)
 {
-printf("hello, %s\n", input);
+printf("hello, %s\n", i);
 }

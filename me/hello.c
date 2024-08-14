@@ -1,15 +1,15 @@
 #include<stdio.h>
 #include<cs50.h>
-string sayHello(string input);
+void sayHello(string input);
 int main(void)
 {
-    string input=get_string("What's your name?");
+    string input=get_string("What's your name? ");
     sayHello(input);
 
 }
 
 
-string sayHello(string i)
+void sayHello(string i)
 {
 printf("hello, %s\n", i);
 }

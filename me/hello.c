@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<cs50.h>
-string sayHello(string,input);
+string sayHello(string input);
 int main(void)
 {
     string input=get_string("What's your name?");
-    sayHello(input)
+    sayHello(input);
 
 }
 

@@ -73,7 +73,7 @@ bool validate(long n)
 
 
 }
-//51, 52, 53, 54, or 55
+
 string card(long n)
 {
     long countN=n;
@@ -87,7 +87,7 @@ string card(long n)
     {
         cardNum=cardNum/10;
     }
-    if((cardNum==35||cardNum==37)&&count==15)
+    if((cardNum==34||cardNum==37)&&count==15)
     {
         return "AMEX\n";
 

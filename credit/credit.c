@@ -44,14 +44,15 @@ void validate(long n)
        newEverySec=newEverySec/10;
 
     }
-    printf("%li/n",ma);
-    printf("%li/n",everySec);
+    printf("%li\n",ma);
+    printf("%li\n",everySec);
     int result=0;
 
     while(everySec>0)
     {
         int currentNum = everySec % 10;
         result+=currentNum;
+        everySec=everySec/10;
 
     }
     printf("%i",result);

@@ -5,9 +5,7 @@ int main(void)
 {
     do {
         string input=get_string("What's your name? ");
-    }while{
-        input=string 
-    }
+    }while(input==NULL)
 
     sayHello(input);
 

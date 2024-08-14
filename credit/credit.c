@@ -6,7 +6,7 @@ int main(void)
 {
     long input = get_long("Number: ");
     bool val = validate(input);
-    printf("%b)
+    printf("%s\n", val?"true":"false")
 }
 
 bool validate(long n)

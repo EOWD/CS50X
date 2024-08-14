@@ -27,7 +27,7 @@ void buildBlocks(int n)
             printf("%s", block);
         }
         printf("%s", space);
-          for (int k = 0; k <= i; k++)
+        for (int k = 0; k <= i; k++)
         {
             printf("%s", block);
         }

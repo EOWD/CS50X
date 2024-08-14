@@ -7,7 +7,7 @@ int main(void)
 {
     long input = get_long("Number: ");
     bool val = validate(input);
-    printf("%s\n", val ? "true" : "false");
+    //printf("%s\n", val ? "true" : "false");
     if (!val)
     {
         printf("INVALID\n");
@@ -30,7 +30,7 @@ bool validate(long n)
 
         num = num / 100;
     }
-    printf("%li \n", everySec);
+  //  printf("%li \n", everySec);
 
     long ma = 0;
     long newEverySec = everySec;
@@ -53,8 +53,8 @@ bool validate(long n)
         }
         newEverySec = newEverySec / 10;
     }
-    printf("%li\n", ma);
-    printf("%li\n", n);
+   //printf("%li\n", ma);
+   //printf("%li\n", n);
     int result = ma;
     long otherNums = n;
     while (otherNums > 0)
@@ -63,7 +63,7 @@ bool validate(long n)
         result += currentNum;
         otherNums = otherNums / 100;
     }
-    printf("%i", result);
+    //printf("%i", result);
     const int res = result % 10;
     return res == 0;
 }

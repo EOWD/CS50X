@@ -26,7 +26,7 @@ void validate(long n)
     while(newLong>0)
     {
         long currentNum=newLong % 10;
-        m=currentNum*2
+        int m=currentNum*2;
         if(m>9)
         {
             while(m>0)

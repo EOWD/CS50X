@@ -26,6 +26,11 @@ void buildBlocks(int n)
         {
             printf("%s", block);
         }
+        printf(" ");
+          for (int k = 0; k <= i; k++)
+        {
+            printf("%s", block);
+        }
         printf("\n");
     }
 }

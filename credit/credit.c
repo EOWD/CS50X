@@ -44,6 +44,7 @@ void validate(long n)
 
     }
     printf("%li",ma);
+    printf("%li",newLong);
 
 
 }

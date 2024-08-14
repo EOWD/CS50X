@@ -17,7 +17,7 @@ void validate(long n)
     while(num>0)
     {
         long number=num%10;
-        newlong=newlong * multiplier + number;
+        newLong=newLong * multiplier + number;
         multiplier *=10;
     }
     printf("%li", newLong);

@@ -62,3 +62,18 @@ bool validate(long n)
 
 
 }
+//51, 52, 53, 54, or 55
+string card(long n)
+{
+    long cardNum=n;
+    while(cardNum>=100)
+    {
+        cardNum=cardNum/10
+    }
+    if(cardNum=35||carNum=37)
+    {
+        return "AMEX\n"
+
+    }
+    else if (cardNum=)
+}

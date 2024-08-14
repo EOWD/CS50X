@@ -15,7 +15,7 @@ int main(void)
     }
     else
     {
-        printf("%s\n",card(input));
+        printf("%s",card(input));
     }
 
 }

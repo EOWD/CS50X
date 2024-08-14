@@ -11,7 +11,7 @@ int main(void)
 void validate(long n)
 {
     long newLong = 0;
-    int multiplier = 1;
+    long multiplier = 1;
     long num = n / 10;
     //printf("%li",num);
     while(num>0)

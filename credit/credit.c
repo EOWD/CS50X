@@ -44,8 +44,13 @@ void validate(long n)
        newEverySec=newEverySec/10;
 
     }
-    printf("%li",ma);
-    printf("%li",everySec);
+    printf("%li/n",ma);
+    printf("%li/n",everySec);
+
+    while(everySec>0)
+    {
+        x=
+    }
 
 
 }

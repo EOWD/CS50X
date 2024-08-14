@@ -30,7 +30,7 @@ void buildBlocks(int n)
            blockNum ++;
 
         }
-        print("\n");
+        printf("\n");
 
     }
 }

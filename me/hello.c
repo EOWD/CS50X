@@ -3,7 +3,12 @@
 void sayHello(string input);
 int main(void)
 {
-    string input=get_string("What's your name? ");
+    do {
+        string input=get_string("What's your name? ");
+    }while{
+        input=string 
+    }
+
     sayHello(input);
 
 }

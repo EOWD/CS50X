@@ -79,4 +79,9 @@ string card(long n)
     {
         return "MASTERCARD\n"
     }
+    else
+    {
+       cardNum=cardNum/10;
+       
+    }
 }

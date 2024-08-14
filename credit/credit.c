@@ -11,16 +11,16 @@ int main(void)
 void validate(long n)
 {
     long newLong = 0;
-    int multiplier = 1
+    int multiplier = 1;
     long num = n / 10;
     //printf("%li",num);
     while(num>0)
     {
-        number=num%10;
-        newlong=newlong * multiblier +number
+        long number=num%10;
+        newlong=newlong * multiplier + number;
+        multiplier *=10;
     }
-
-
+    printf("%li", newLong);
 
 
 }

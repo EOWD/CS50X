@@ -2,11 +2,22 @@
 #include <stdio.h>
 
 bool validate(long n);
+string card(long n);
 int main(void)
 {
     long input = get_long("Number: ");
     bool val = validate(input);
     printf("%s\n", val?"true":"false");
+    if(!val)
+    {
+        printf("INVALID\n");
+
+    }
+    else
+    {
+        print("%s\n"card(input));
+    }
+
 }
 
 bool validate(long n)
@@ -68,20 +79,19 @@ string card(long n)
     long cardNum=n;
     while(cardNum>=100)
     {
-        cardNum=cardNum/10
+        cardNum=cardNum/10;
     }
     if(cardNum=35||carNum=37)
     {
-        return "AMEX\n"
+        return "AMEX\n";
 
     }
     else if (cardNum=51||cardNum=52||cardNum=53||cardNum=54||cardNum=55)
     {
-        return "MASTERCARD\n"
+        return "MASTERCARD\n";
     }
     else
     {
-       cardNum=cardNum/10;
-       
+       return "VISA\n";
     }
 }

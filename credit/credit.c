@@ -50,7 +50,9 @@ void validate(long n)
 
     while(everySec>0)
     {
-        currentNum = everySec % 10;
+        int currentNum = everySec % 10;
+        
+
     }
 
 

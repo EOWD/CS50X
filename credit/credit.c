@@ -46,7 +46,7 @@ void validate(long n)
     }
     printf("%li\n",ma);
     printf("%li\n",everySec);
-    int result=0;
+    int result=ma;
 
     while(everySec>0)
     {

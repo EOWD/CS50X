@@ -6,10 +6,10 @@ int main(void)
     int input;
     do
     {
-        input = get_int("Height")
+        input = get_int("Height");
     }
-    while(input)
-    buildBlocks();
+    while(input<1);
+    buildBlocks(input);
 }
 void buildBlocks(int n)
 {
@@ -17,20 +17,20 @@ void buildBlocks(int n)
     string block="#";
     int spaceNum=n-1;
     int blockNum=1;
-    for(int i=0; i<n, i++)
+    for(int i=0; i<n; i++)
     {
-        for(int i=0; i<spaceNum, i++)
+        for(int j=0; j<spaceNum; j++)
         {
-           printf("%s", space)
-           spaceNum --
+           printf("%s", space);
+           spaceNum --;
         }
-         for(int i=0; i<blockNum, i++)
+         for(int k=0; k<blockNum; k++)
         {
-           printf("%s", block)
-           blockNum ++
+           printf("%s", block);
+           blockNum ++;
 
         }
-        print("\n")
+        print("\n");
 
     }
 }

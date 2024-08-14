@@ -22,14 +22,15 @@ void validate(long n)
     }
     printf("%li", newLong);
 
-    ma=0;
+    long ma = 0;
     while(newLong>0)
     {
-        currentNum=newLong % 10;
+        long currentNum=newLong % 10;
         ma+=currentNum;
         newLong=newLong/10;
 
     }
+    printf("%li",ma);
 
 
 }

@@ -6,7 +6,7 @@ int main(void)
 {
     long input = get_long("Number: ");
     bool val = validate(input);
-    printf("%s\n", val?"true":"false")
+    printf("%s\n", val?"true":"false");
 }
 
 bool validate(long n)
@@ -58,7 +58,7 @@ bool validate(long n)
     }
     printf("%i",result);
     const int res = result % 10;
-    return res == 0
+    return res == 0;
 
 
 }

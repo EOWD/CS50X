@@ -79,7 +79,7 @@ string card(long n)
     long countN=n;
     int count=0;
     while(countN>0){
-        count/=10;
+        countN/=10;
         count++;
     }
     long cardNum=n;

@@ -10,22 +10,23 @@ int main(void)
 
 void validate(long n)
 {
-    long newLong = 0;
+    long everySec = 0;
     long num = n / 10;
     //printf("%li",num);
     while(num>0)
     {
         long number=num%10;
-        newLong=newLong * 10 + number;
+        everySec=everySec * 10 + number;
 
         num = num / 100;
     }
-    printf("%li \n", newLong);
+    printf("%li \n", everySec);
 
     long ma = 0;
-    while(newLong>0)
+    long newEverySec = everySec;
+    while(newEverySec>0)
     {
-        long currentNum=newLong % 10;
+        long currentNum=newEverySec % 10;
         int m=currentNum*2;
         if(m>9)
         {
@@ -40,11 +41,11 @@ void validate(long n)
 
 
         }
-       newLong=newLong/10;
+       newEverySec=newEverySec/10;
 
     }
     printf("%li",ma);
-    printf("%li",newLong);
+    printf("%li",everySec);
 
 
 }

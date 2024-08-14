@@ -19,6 +19,7 @@ void validate(long n)
         long number=num%10;
         newLong=newLong * multiplier + number;
         multiplier *=10;
+        number = number / 10;
     }
     printf("%li", newLong);
 

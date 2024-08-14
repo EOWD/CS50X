@@ -18,7 +18,7 @@ void validate(long n)
         long number=num%10;
         newLong=newLong * 10 + number;
 
-        number = num / 100;
+        num = num / 100;
     }
     printf("%li", newLong);
 

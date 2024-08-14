@@ -21,6 +21,11 @@ void validate(long n)
         num = num / 100;
     }
     printf("%li", newLong);
+    while(newLong>0)
+    {
+        cur
+
+    }
 
 
 }

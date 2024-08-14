@@ -15,7 +15,7 @@ int main(void)
     }
     else
     {
-        print("%s\n"card(input));
+        printf("%s\n",card(input));
     }
 
 }
@@ -81,12 +81,12 @@ string card(long n)
     {
         cardNum=cardNum/10;
     }
-    if(cardNum=35||carNum=37)
+    if(cardNum==35||cardNum==37)
     {
         return "AMEX\n";
 
     }
-    else if (cardNum=51||cardNum=52||cardNum=53||cardNum=54||cardNum=55)
+    else if (cardNum==51||cardNum==52||cardNum==53||cardNum==54||cardNum==55)
     {
         return "MASTERCARD\n";
     }

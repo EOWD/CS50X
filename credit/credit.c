@@ -33,7 +33,7 @@ void validate(long n)
             {
                int newNum=m%10;
                ma+=newNum;
-               m=m/10
+               m=m/10;
             }
         }else{
             ma+=m;

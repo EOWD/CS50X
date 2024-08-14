@@ -51,9 +51,10 @@ void validate(long n)
     while(everySec>0)
     {
         int currentNum = everySec % 10;
-        
+        result+=currentNum
 
     }
+    printf("%i",result)
 
 
 }

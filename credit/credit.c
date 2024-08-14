@@ -1,14 +1,15 @@
 #include <cs50.h>
 #include <stdio.h>
 
-void validate(long n);
+bool validate(long n);
 int main(void)
 {
     long input = get_long("Number: ");
-    validate(input);
+    bool val = validate(input);
+    printf("%b)
 }
 
-void validate(long n)
+bool validate(long n)
 {
     long everySec = 0;
     long num = n / 10;
@@ -52,10 +53,12 @@ void validate(long n)
     {
         int currentNum = otherNums % 10;
         result+=currentNum;
-        everySec=otherNums/100;
+        otherNums=otherNums/100;
 
     }
     printf("%i",result);
+    const int res = result % 10;
+    return res == 0
 
 
 }

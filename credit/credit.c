@@ -47,12 +47,12 @@ void validate(long n)
     printf("%li\n",ma);
     printf("%li\n",everySec);
     int result=ma;
-
-    while(everySec>0)
+    long otherNums= n;
+    while(otherNums>0)
     {
-        int currentNum = everySec % 10;
+        int currentNum = otherNums % 10;
         result+=currentNum;
-        everySec=everySec/10;
+        everySec=otherNums/100;
 
     }
     printf("%i",result);

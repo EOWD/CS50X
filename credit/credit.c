@@ -75,5 +75,8 @@ string card(long n)
         return "AMEX\n"
 
     }
-    else if (cardNum=)
+    else if (cardNum=51||cardNum=52||cardNum=53||cardNum=54||cardNum=55)
+    {
+        return "MASTERCARD\n"
+    }
 }

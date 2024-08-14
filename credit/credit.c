@@ -26,8 +26,19 @@ void validate(long n)
     while(newLong>0)
     {
         long currentNum=newLong % 10;
-        ma+=currentNum*2;
-        newLong=newLong/10;
+        if(currentNum>9)
+        {
+            while(currentNum>0)
+            {
+               int newNum=currentNum%10;
+               ma+=newNum;
+            }
+        }else{
+            ma+=currentNum*2;
+            newLong=newLong/10;
+
+        }
+
 
     }
     printf("%li",ma);

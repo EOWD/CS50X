@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int main(viod)
+int main(void)
 {
     int d[5];
-    int array_len=sizeof(array)
-    for(int i=1; i<len)
+    int array_len=sizeof(d)/sizeof(d[0]);
+    printf(array_len);
 }

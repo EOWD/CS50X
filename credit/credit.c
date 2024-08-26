@@ -54,7 +54,7 @@ bool validate(long n)
         newEverySec = newEverySec / 10;
     }
    //printf("%li\n", ma);
-   //printf("%li\n", n);
+   //sprintf("%li\n", n);
     int result = ma;
     long otherNums = n;
     while (otherNums > 0)

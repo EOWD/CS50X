@@ -5,5 +5,5 @@ int main(void)
 {
     int d[5];
     int array_len=sizeof(d)/sizeof(d[0]);
-    printf("%i"array_len);
+    printf("%i \n"array_len);
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 #include <string.h>
-#include <strlib.h>
+#include <stdlib.h>
 int main(int argv, string argc[])
 {
     printf("%s\n", argc[1]);
